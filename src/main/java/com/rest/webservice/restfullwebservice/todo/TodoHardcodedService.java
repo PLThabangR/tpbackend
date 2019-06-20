@@ -28,9 +28,11 @@ public class TodoHardcodedService {
 
 
     public Todos save(Todos todo){
+        todo.getId();
         //If the Id is not there add a new todo and increment it
-        if(todo.getId()==-1){
+        if(todo.getId() == -1 || todo.getId() == 0){
 
+            todo.setId(++idCounter);
             //Add a new Id
             todos.add(todo);
         }else{

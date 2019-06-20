@@ -18,6 +18,11 @@ public class Todos {
         this.isDone = isDone;
     }
 
+    //A default constructor will allow us to create objects
+    public Todos(){
+
+    }
+
 
     public long getId() {
         return id;
