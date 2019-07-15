@@ -15,6 +15,7 @@ public class basicConfig extends WebSecurityConfigurerAdapter {
        http
                .csrf().disable()
                .authorizeRequests()
+               .antMatchers(HttpMethod.GET, "/**").permitAll()
                .antMatchers(HttpMethod.OPTIONS,"/**").permitAll()       //Allow every request to accses the method
                             .anyRequest().authenticated()
                             .and()
@@ -23,4 +24,6 @@ public class basicConfig extends WebSecurityConfigurerAdapter {
 
 
     }
+
+
 }

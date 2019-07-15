@@ -10,9 +10,9 @@ import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 import java.net.URI;
 import java.util.List;
-//@CrossOrigin(origins="http://localhost:4206")
 
-@CrossOrigin(origins = "*", allowedHeaders = "*")
+@CrossOrigin(origins= "http://localhost:4200" )
+//@CrossOrigin(origins = "*", allowedHeaders = "*")
 @RestController
 public class TodoResource {
 
@@ -43,7 +43,6 @@ public class TodoResource {
     }
 
     //This method will map for updating current user
-
     @PutMapping("/users/{username}/todos/{id}")
     //For the udate request we will send the content of the updated todo
     public ResponseEntity<Todos>updateTodo(@PathVariable String username,@PathVariable long id,@RequestBody Todos todo){
