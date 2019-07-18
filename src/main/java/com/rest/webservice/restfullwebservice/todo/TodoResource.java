@@ -11,7 +11,7 @@ import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 import java.net.URI;
 import java.util.List;
 
-@CrossOrigin(origins= "http://localhost:4200" )
+@CrossOrigin(origins= "http://localhost:4205" )
 //@CrossOrigin(origins = "*", allowedHeaders = "*")
 @RestController
 public class TodoResource {

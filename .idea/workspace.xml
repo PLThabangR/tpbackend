@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69e92167-341e-4997-8bad-01a89de73a77" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rest/webservice/restfullwebservice/basicAuth/Auth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rest/webservice/restfullwebservice/basicAuth/AuthenticationBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rest/webservice/restfullwebservice/basicAuth/BasicAuthController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rest/webservice/restfullwebservice/basicAuth/Auth.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rest/webservice/restfullwebservice/basicAuth/AuthenticationBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rest/webservice/restfullwebservice/basicAuth/AuthenticationBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rest/webservice/restfullwebservice/todo/TodoResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rest/webservice/restfullwebservice/todo/TodoResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/rest/webservice/restfullwebservice/todo/TodoResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/rest/webservice/restfullwebservice/todo/TodoResource.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,88 +22,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/rest/webservice/restfullwebservice/helloWorldBean/HelloWorld.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/rest/webservice/restfullwebservice/helloWorldBean/HelloWorldBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/rest/webservice/restfullwebservice/RestFullWebServiceApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/rest/webservice/restfullwebservice/todo/TodoResource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="15" lean-forward="true" selection-start-line="13" selection-end-line="15" selection-end-column="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#getTodos#0;class#TodoResource#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/rest/webservice/restfullwebservice/basicAuth/Auth.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="63" selection-start-line="15" selection-start-column="63" selection-end-line="15" selection-end-column="63" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/rest/webservice/restfullwebservice/basicAuth/AuthenticationBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/rest/webservice/restfullwebservice/todo/Todos.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="73" selection-start-line="73" selection-end-line="73" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/rest/webservice/restfullwebservice/basicAuth/basicConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
@@ -110,10 +31,71 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/rest/webservice/restfullwebservice/helloWorldBean/HelloWorldBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/rest/webservice/restfullwebservice/todo/TodoHardcodedService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
+            <state relative-caret-position="178">
               <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/rest/webservice/restfullwebservice/todo/TodoResource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="15" column="15" selection-start-line="13" selection-end-line="15" selection-end-column="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#getTodos#0;class#TodoResource#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/rest/webservice/restfullwebservice/basicAuth/AuthenticationBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+              <folding>
+                <element signature="e#339#340#0" expanded="true" />
+                <element signature="e#369#370#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/rest/webservice/restfullwebservice/basicAuth/BasicAuthController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#324#325#0" expanded="true" />
+                <element signature="e#391#392#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/rest/webservice/restfullwebservice/basicAuth/basicConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="237">
+              <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -130,7 +112,11 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>wcs</find>
+      <find>AuthenticationBean</find>
     </findStrings>
+    <replaceStrings>
+      <replace>AuthenticationBean</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -146,6 +132,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/rest/webservice/restfullwebservice/basicAuth/basicConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/rest/webservice/restfullwebservice/todo/TodoResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/rest/webservice/restfullwebservice/basicAuth/Auth.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rest/webservice/restfullwebservice/basicAuth/HelloWorldBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rest/webservice/restfullwebservice/basicAuth/AuthenticationBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rest/webservice/restfullwebservice/basicAuth/HelloWorldController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rest/webservice/restfullwebservice/basicAuth/BasicAuthController.java" />
       </list>
     </option>
   </component>
@@ -156,11 +146,10 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="69" />
-    <option name="y" value="64" />
-    <option name="width" value="1241" />
-    <option name="height" value="727" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="41" />
+    <option name="width" value="1440" />
+    <option name="height" value="852" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -171,7 +160,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -243,10 +231,16 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563345159257" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563459531513" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.rest.webservice.restfullwebservice.basicAuth" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -303,24 +297,24 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="852" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49827588" visible="true" weight="0.26752505" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49910232" visible="true" weight="0.27110156" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.5017241" side_tool="true" visible="true" weight="0.26752505" />
+      <window_info id="Favorites" order="6" sideWeight="0.50089765" side_tool="true" weight="0.26752505" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32894737" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30120483" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32891566" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.35921052" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32891566" />
@@ -360,10 +354,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/rest/webservice/restfullwebservice/helloWorldBean/HelloWorld.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+        <state relative-caret-position="131">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
@@ -374,17 +368,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/rest/webservice/restfullwebservice/todo/TodoHardcodedService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rest/webservice/restfullwebservice/todo/Todos.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+        <state relative-caret-position="410">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rest/webservice/restfullwebservice/helloWorldBean/HelloWorld.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="60">
+          <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -395,34 +389,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/rest/webservice/restfullwebservice/basicAuth/basicConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rest/webservice/restfullwebservice/helloWorldBean/HelloWorldBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+        <state relative-caret-position="20">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rest/webservice/restfullwebservice/basicAuth/Auth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/rest/webservice/restfullwebservice/helloWorldBean/HelloWorldBean.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rest/webservice/restfullwebservice/todo/TodoHardcodedService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="178">
+          <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/rest/webservice/restfullwebservice/todo/Todos.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rest/webservice/restfullwebservice/basicAuth/HelloWorldBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        <state relative-caret-position="403">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <element signature="e#329#330#0" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/rest/webservice/restfullwebservice/todo/TodoResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="15" lean-forward="true" selection-start-line="13" selection-end-line="15" selection-end-column="15" />
+        <state relative-caret-position="105">
+          <caret line="15" column="15" selection-start-line="13" selection-end-line="15" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#getTodos#0;class#TodoResource#0" />
@@ -430,19 +435,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/rest/webservice/restfullwebservice/basicAuth/AuthenticationBean.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rest/webservice/restfullwebservice/basicAuth/basicConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+        <state relative-caret-position="237">
+          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/rest/webservice/restfullwebservice/basicAuth/Auth.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rest/webservice/restfullwebservice/basicAuth/HelloWorldController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="63" selection-start-line="15" selection-start-column="63" selection-end-line="15" selection-end-column="63" />
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="16" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#456#457#0" expanded="true" />
+            <element signature="e#496#497#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rest/webservice/restfullwebservice/basicAuth/AuthenticationBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+          <folding>
+            <element signature="e#339#340#0" expanded="true" />
+            <element signature="e#369#370#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rest/webservice/restfullwebservice/basicAuth/BasicAuthController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
           </folding>
         </state>
       </provider>
