@@ -1,16 +1,24 @@
 package com.rest.webservice.restfullwebservice.todo;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
 import java.util.Date;
 import java.util.Objects;
 
+
+
+@Entity                      //Creating a entity to be stored to the database
 public class Todos {
-    private long id;
+    @Id                      //Every entity need to hve a primary key
+    @GeneratedValue         //Every todo we add will be generated to database by order
+    private Long id;
     private String username;
     private String description;
     private Date targetDate;
     private boolean isDone;
 
-    public Todos(long id, String username, String description, Date targetDate, boolean isDone) {
+    public Todos(Long id, String username, String description, Date targetDate, boolean isDone) {
         this.id = id;
         this.username = username;
         this.description = description;
@@ -24,11 +32,11 @@ public class Todos {
     }
 
 
-    public long getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(Long id) {
         this.id = id;
     }
 

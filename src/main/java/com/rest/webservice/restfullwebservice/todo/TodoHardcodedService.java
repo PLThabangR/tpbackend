@@ -12,7 +12,7 @@ public class TodoHardcodedService {
     //Declaring the list which has a todo object
     private static List<Todos> todos = new ArrayList();
     //declare a counter which will give each user a unique ID
-    private static int idCounter=0;
+    private static long idCounter=0;
 
     //A static block initialize the list as soon as the class is loaded
     static {
