@@ -54,17 +54,17 @@ public class TodojpaResource {
     //For the udate request we will send the content of the updated todo
     public ResponseEntity<Todos>updateTodo(@PathVariable String username,@PathVariable long id,@RequestBody Todos todo){
 
-    Todos updatetodo =todoService.save(todo);
+    Todos updatetodo =todojpaRepository.save(todo);  //I am
     return new ResponseEntity<Todos>(todo, HttpStatus.OK);
     }
 
 
     @PostMapping("/jpa/users/{username}/todos")
-    public ResponseEntity<Void>uodateTodo(@PathVariable String username,@RequestBody Todos todo){
+    public ResponseEntity<Void>createTodo(@PathVariable String username,@RequestBody Todos todo){
 
-        Todos createdTodo = todoService.save(todo);//This is the created resources
+        Todos createdTodo = todojpaRepository.save(todo);//This is the created resources
         //Location
-        //Get current resource url using ID
+        //Get current resource url using IDt
         //"/users/{username}/todos/{id}"
 
         //This is our help component
