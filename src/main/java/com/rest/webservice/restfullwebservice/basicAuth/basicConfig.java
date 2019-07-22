@@ -18,7 +18,9 @@ public class basicConfig extends WebSecurityConfigurerAdapter {
                .antMatchers(HttpMethod.GET, "/**").permitAll()
                .antMatchers(HttpMethod.PUT, "/**").permitAll()
                .antMatchers(HttpMethod.DELETE, "/**").permitAll()
-               .antMatchers(HttpMethod.OPTIONS,"/**").permitAll()       //Allow every request to accses the method
+               .antMatchers(HttpMethod.OPTIONS,"/**").permitAll()
+               .antMatchers("/console/**").permitAll()
+               //Allow every request to accses the method
                             .anyRequest().authenticated()
                             .and()
                             .httpBasic();

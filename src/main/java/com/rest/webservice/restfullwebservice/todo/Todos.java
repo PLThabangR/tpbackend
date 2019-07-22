@@ -10,9 +10,9 @@ import java.util.Objects;
 
 @Entity                      //Creating a entity to be stored to the database
 public class Todos {
-    @Id                      //Every entity need to hve a primary key
+    @Id                      //Every entity need to hve a primary key we add a id
     @GeneratedValue         //Every todo we add will be generated to database by order
-    private Long id;
+    private Long id;        //Id should be a proper class becuase it can be set to null
     private String username;
     private String description;
     private Date targetDate;
